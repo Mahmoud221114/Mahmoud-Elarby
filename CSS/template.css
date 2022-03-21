@@ -222,6 +222,11 @@ body {
     display: flex;
     margin-bottom: 30px;
 }
+@media (max-width: 767px) {
+    .services .services-content .srv {
+      flex-direction: column;
+      text-align: center;
+    }
 .services .services-content .srv i {
     color: var(--main-color);
     flex-basis: 60px;
@@ -261,6 +266,12 @@ body {
 .services .services-content .imge img {
     width: 260px;
     height: 300px;
+}
+}
+@media (max-width: 1199px) {
+    .image-column {
+      display: none;
+    }
 }
 /* end services */
 /* start portfolio */
