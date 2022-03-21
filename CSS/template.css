@@ -164,6 +164,11 @@ body {
     width: 320px;
     max-width: 100%;
 }
+@media (max-width: 767px) {
+    .landing .intro-text {
+        padding-right: 82px;
+    }
+}
 .landing .intro-text h1 {
     margin: 0;
     font-weight: bold;
